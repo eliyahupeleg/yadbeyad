@@ -1,18 +1,83 @@
-.text {
+#in-page-img {
+    height: 70%;
+    margin: 10 auto;
+    display: block;
+    border-radius: 15px;
+ }
+
+ #right-page-img{
+    position: absolute;
+    height: 47%;
+    right: 19.5%;
+    bottom: 3%;
+    border-radius: 15px;
+  }
+
+
+#contact-text-left{
+    float: left;
     overflow:hidden;
-    height:700px;
+    line-height:23px;
+    color: black;
+    font-size: large;
+    font-weight: 520;
+    text-align: right;
+    margin-left: 16%;
+}
+
+#videos {
+    margin: 10 auto;
+    display: block;
+}
+
+#home-text{
+    position: relative;
+    overflow:hidden;
     line-height:18px;
     color: black;
-    width: 70%;
-    text-align: center;
-    position: absolute;
+    width: 60%;
+    font-size: large;
+    font-weight: 520;
+    text-align: right;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
+    top: 0; 
+
+}
+#contact-text{
+    position: relative;
+    overflow:hidden;
+    line-height:23px;
+    color: black;
+    width: 60%;
+    font-size: large;
+    font-weight: 520;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0; 
+}
+.text {
+    position: relative;
+    overflow:hidden;
+    line-height:18px;
+    color: black;
+    width: 58%;
+    font-size: large;
+    font-weight: 520;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0; 
 }
 .in-text{
-    height: 20px;
+    height: 17px;
 }
 @font-face {
     font-family: SecularOne-Regular;
@@ -33,10 +98,8 @@
     text-align: center;         
     overflow: hidden;
     height: 14%;
-    background-color: #fff59d61;
-    
-}
-
+    background-color: #fff8b591;
+}   
 .topline img{
 
     font-size: 10%;
@@ -61,36 +124,46 @@
     bottom: 0;
     text-align: center;
     float: center;
-    color: #8bc34a;
+    color: #52d681;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 42px;
 }
 
 .topline .line-end{
-    color: #388e3c;
+    color: #00ad7c;
     font-size: 52;
     font-family: SuezOne-Regular;
     margin-right: 8px;
 }
 
-.topbar {
-
+#topbar {
+    z-index:1;
+    width: 100%;
     height: 60px;
     float: inline-end;
     text-align: center;          
-    background-color: #388e3c;
+    background-color: #00ad7c;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
+    position: sticky;
+    top: 0;
 
 }
 
-
-.topbar a {
+.sticky {
+    position: fixed;
+    top: 0;
+}
+  
+#topbar a {
     color: #ffffff;
     padding-left: 35px;
     padding-right: 35px;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 17px;
+    padding-bottom: 17px;
     position: relative;
     top: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -99,17 +172,20 @@
 }
 
 
-.topbar a:hover {
-    background-color: #fff59d61;
+#topbar a:hover {
+    background-color: #fff8b581;
     color: black;
 }
 
 
-.topbar a.active {
-    background-color: #fff59d61;
+#topbar a.active {
+    background-color: #fff8b581;
     color: black;
 }
 
 body{
-        color: #a7c2ac;
+    background-image:url(תמונות/background-1.png);
+    background-repeat: repeat;
+    background-color: #ffffff;
+    margin: 0;
 }
