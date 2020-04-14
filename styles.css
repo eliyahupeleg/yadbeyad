@@ -1,0 +1,115 @@
+.text {
+    overflow:hidden;
+    height:700px;
+    line-height:18px;
+    color: black;
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.in-text{
+    height: 20px;
+}
+@font-face {
+    font-family: SecularOne-Regular;
+    src: url('פונטים/Secular_One/SecularOne-Regular.ttf') format('truetype'); 
+  }  
+
+@font-face {
+    font-family: Abraham-Regular;
+    src: url('פונטים/Abraham/Abraham/Abraham-Regular.ttf') format('truetype'); 
+  }  
+
+@font-face {
+    font-family: SuezOne-Regular;
+    src: url('פונטים/Suez_One/SuezOne-Regular.ttf') format('truetype'); 
+  }  
+
+.topline {
+    text-align: center;         
+    overflow: hidden;
+    height: 14%;
+    background-color: #fff59d61;
+    
+}
+
+.topline img{
+
+    font-size: 10%;
+    margin-top: 0.8%;
+    margin-right: 5%;
+    float: right;
+    text-align: center;
+    height: 72px;
+    
+    
+  }
+
+.topline a {
+
+    font-family: SecularOne-Regular;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    float: center;
+    color: #8bc34a;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 42px;
+}
+
+.topline .line-end{
+    color: #388e3c;
+    font-size: 52;
+    font-family: SuezOne-Regular;
+    margin-right: 8px;
+}
+
+.topbar {
+
+    height: 60px;
+    float: inline-end;
+    text-align: center;          
+    background-color: #388e3c;
+    overflow: hidden;
+
+}
+
+
+.topbar a {
+    color: #ffffff;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    position: relative;
+    top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+.topbar a:hover {
+    background-color: #fff59d61;
+    color: black;
+}
+
+
+.topbar a.active {
+    background-color: #fff59d61;
+    color: black;
+}
+
+body{
+        color: #a7c2ac;
+}
