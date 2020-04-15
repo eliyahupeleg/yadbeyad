@@ -1,3 +1,46 @@
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 #in-page-img {
     width: 100%;
     margin: 10 auto;
@@ -41,7 +84,8 @@
     padding: 9px 25px 9px 25px;
     background-color: #52d681;  
     font-size: large;
-    margin: 5% auto;
+    margin: 4% auto;
+
     display: block;     
     
 }
@@ -132,7 +176,7 @@
     text-align: center;         
     overflow: hidden;
     height: auto;
-    background-color: #fff8b591;
+    background-color: #fffce1F0;
     padding-top: 0%;
     padding-bottom: 0%;
 }   
@@ -228,7 +272,7 @@
 
 body{
 
-    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("תמונות/background-1.png");
+    background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("תמונות/background-1.png");
     background-repeat: repeat;
 
     background-color: #ffffff;
