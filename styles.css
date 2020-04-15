@@ -184,8 +184,10 @@
 }
 
 body{
-    background-image:url(תמונות/background-1.png);
+
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("תמונות/background-1.png");
     background-repeat: repeat;
+
     background-color: #ffffff;
     margin: 0;
 }
