@@ -1,36 +1,69 @@
 #in-page-img {
-    height: 70%;
+    width: 100%;
     margin: 10 auto;
     display: block;
     border-radius: 15px;
  }
 
  #right-page-img{
-    position: absolute;
-    height: 47%;
-    right: 19.5%;
-    bottom: 3%;
+    position: relative;
+    width: 40%;
+    right: 0.3%;
     border-radius: 15px;
+    float: right;
+    padding-left: 7%;
+    
   }
 
 
 #contact-text-left{
-    float: left;
+
+    padding-top: 7%;
+    float: right;
     overflow:hidden;
-    line-height:23px;
+    line-height:33%;
     color: black;
     font-size: large;
     font-weight: 520;
     text-align: right;
-    margin-left: 16%;
+    margin-bottom: 8%;
+    margin-right: 19.5%;
 }
 
 #videos {
     margin: 10 auto;
     display: block;
 }
-
+#show_button{
+    
+    display: block; 
+    border-radius: 30px;
+    padding: 14px 25px 14px 25px;
+    background-color: #52d681;  
+    font-size: large;
+    margin: 5% auto;
+    display: block;     
+    
+}
 #home-text{
+    display: none;
+    position: relative;
+    overflow:hidden;
+    line-height:18px;
+    color: black;
+    width: 100%;
+    font-size: large;
+    font-weight: 520;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0; 
+
+}
+#home-context{
+    
     position: relative;
     overflow:hidden;
     line-height:18px;
@@ -46,10 +79,11 @@
     top: 0; 
 
 }
+
 #contact-text{
     position: relative;
     overflow:hidden;
-    line-height:23px;
+    line-height:100%;
     color: black;
     width: 60%;
     font-size: large;
@@ -97,56 +131,53 @@
 .topline {
     text-align: center;         
     overflow: hidden;
-    height: 14%;
+    height: auto;
     background-color: #fff8b591;
+    padding-top: 0%;
+    padding-bottom: 0%;
 }   
 .topline img{
 
-    font-size: 10%;
-    margin-top: 0.8%;
     margin-right: 5%;
     float: right;
+    margin-bottom: 0.3%;
+    margin-top: 0.3%;
     text-align: center;
-    height: 72px;
-    
+    width: 8%;
     
   }
 
 .topline a {
 
     font-family: SecularOne-Regular;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    width: 70%;
+    height: auto;
     text-align: center;
-    float: center;
     color: #52d681;
-    padding: 14px 16px;
     text-decoration: none;
-    font-size: 42px;
+    font-size: 270%;
+    float: right;
+    display: block;
+    margin: auto;
+    padding: 1.8%;
+
 }
 
 .topline .line-end{
     color: #00ad7c;
-    font-size: 52;
+    font-size: 120%;
     font-family: SuezOne-Regular;
-    margin-right: 8px;
+    margin-right: 0.5%;
 }
 
 #topbar {
     z-index:1;
     width: 100%;
-    height: 60px;
+    margin-top: 0%;
     float: inline-end;
     text-align: center;          
     background-color: #00ad7c;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     position: sticky;
     top: 0;
@@ -160,15 +191,16 @@
   
 #topbar a {
     color: #ffffff;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    position: relative;
-    top: 15px;
+    padding-left: 2.7%;
+    padding-right: 2.7%;
+    padding-top: 1.3%;
+    padding-bottom: 1.3;
+    margin-bottom: 0%;
+    
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 180%;
 }
 
 

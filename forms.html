@@ -1,20 +1,21 @@
 <html  dir="rtl" >
-<head>
+<head id = "header">
   <title>עמותת יד ביד</title>
   <link rel="shortcut icon" type="image/x-icon" href="תמונות/logo.PNG" />
 </head>
 
 <body>
   <link rel="stylesheet" type="text/css" href="styles.css">
-
+  
   <div class="topline">
+    <img onclick="window.location='home.html'"; src="תמונות/logo.PNG" alt="יד ביד" href="home.html">
 
-    <a style="height: 61;" href="home.html">
+    <a href="home.html">
       <span> הולכים את הדרך הזאת לתמיד</span>
       <span class="line-end">יד ביד</span>    
     </a>
     
-    <img onclick="window.location='home.html'"; src="תמונות/logo.PNG" alt="יד ביד" href="home.html">
+
   </div>
   
   <div id="topbar" >
@@ -24,8 +25,10 @@
     <a class="active" href="forms.html">הרשמה</a>
     <a href="contact.html">צור קשר</a>
     </div>
-    <iframe style= "margin: 10 auto; display: block;" src="https://docs.google.com/forms/d/e/1FAIpQLScsiXjYuqDR7oeNSofgVLxO4rCNC5YJBaWYThTC0o97nILI5g/viewform?embedded=true" width="640" height="1152" frameborder="0" marginheight="0" marginwidth="0">בטעינה…</iframe>
+    <iframe style= "margin: 10 auto; display: block;" src="https://docs.google.com/forms/d/e/1FAIpQLScsiXjYuqDR7oeNSofgVLxO4rCNC5YJBaWYThTC0o97nILI5g/viewform?embedded=true" width="100%" height="90%" frameborder="0" marginheight="0" marginwidth="0">בטעינה…</iframe>
 
+    ​​​<script>jQuery('iframe').onload(function(){jQuery('html,body').animate({scrollTop: 0}, 'slow');});</script>
+    
 
   </body>
   </html>
